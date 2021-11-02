@@ -1581,6 +1581,7 @@ def sender_shutdown():
 
 
 def modify_restricted_calls(message):
+    return
     # check for known corner cases in message delivery and correct accordingly
 
     # due to calling restrictions to china override mode and send as sms instead
